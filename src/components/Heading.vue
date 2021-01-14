@@ -6,7 +6,7 @@
         </button>
         <div class="absolute w-screen bg-indigo-200 flex flex-row bg-gradient-to-b from-indigo-50 to-white"
              v-bind:class="{hidden: !infoActive}">
-            <div class="w-1/3 my-2">
+            <div class="w-1/3 my-2 text-center">
                 <h1 class="font-bold">Written in:</h1>
                 <ul>
                     <li>✌️ Vue / Vite.js</li>
@@ -14,7 +14,7 @@
                     <li>👨‍💻 Some Typescript</li>
                 </ul>
             </div>
-            <div class="w-1/3 my-2">
+            <div class="w-1/3 my-2 text-center">
                 <h1 class="font-bold">Written By:</h1>
                 Kyle Rudisill
                 <div class="flex flex-row justify-center">
@@ -24,7 +24,7 @@
                    href="https://radish4649.github.io"></a>
                 </div>
             </div>
-            <div class="w-1/3 my-2">
+            <div class="w-1/3 my-2 text-center">
                 <h1 class="font-bold">View this project on GitHub:</h1>
                 <a id="github-lg" class="m-2" target="_blank"
                    href="https://github.com/Radish4649/Vue-Dice-Roller"></a>
