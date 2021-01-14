@@ -13,7 +13,7 @@ export default {
             let size = this.roll
             let calc = Math.floor(Math.random()*size)+1
             return {
-                    title: "default",
+                    title: "default 🎲",
                     type: "default",
                     list: [calc],
                     total: calc,

@@ -12,7 +12,7 @@ export default {
     name: "Output",
     methods: {
         formatCalc(data) {
-            var lineOne = `Rolling ${data.text} (${data.title})`
+            var lineOne = `Rolling ${data.title} (${data.text})`
             var lineTwo = `( ${data.list.join(", ")} )`
             var lineThree = `Total: ${+data.total + +data.mod} | Average: ${(data.total / data.quan).toFixed(2)}`
             var lineBreak = " "
