@@ -8,7 +8,11 @@ module.exports = {
      extend: {},
    },
    variants: {
-     extend: {},
+     extend: {
+       fontWeight: ['first'],
+       textColor: ['first'],
+       fontSize: ['first']
+     },
    },
    plugins: [],
  }

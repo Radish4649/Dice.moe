@@ -1,6 +1,6 @@
 <template>
     <div class="whitespace-pre-wrap flex flex-col overflow-auto h-full text-center">
-        <p class="text-gray-600 mx-10 font-mono" v-for="calc in calcData" :key="calc.id">
+        <p class="text-gray-600 mx-10 font-mono first:font-black first:text-black first:text-xl" v-for="calc in calcData" :key="calc.id">
             {{formatCalc(calc)}}
         </p>
     </div>

@@ -1,8 +1,8 @@
 <template>
     <div>
-        <button class="w-screen font-sans text-xl font-bold relative"
+        <button class="w-screen font-sans text-xl font-bold relative mb-4"
                 v-on:click="info">
-            dice.moe {{symbol}}
+            🎲 dice.moe {{symbol}}
         </button>
         <div class="absolute w-screen bg-indigo-200 flex flex-row bg-gradient-to-b from-indigo-50 to-white"
              v-bind:class="{hidden: !infoActive}">
@@ -11,7 +11,7 @@
                 <ul>
                     <li>✌️ Vue / Vite.js</li>
                     <li>♒ Tailwind.css</li>
-                    <li>👨‍💻 my free time</li>
+                    <li>👨‍💻 free time</li>
                 </ul>
             </div>
             <div class="w-1/3 my-2 text-center">
